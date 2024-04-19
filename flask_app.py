@@ -13,11 +13,11 @@ my_type_role = """
 """
 
 my_instance_context = """
-    Further enhance your responses by incorporating a persuasion strategy focused on consequence desirability and gain-loss framing. When describing each technique to overcome 'tip of the tongue' situations, present specific yes/no or choice-based questions to the user. For gain-framed messages, ask questions like 'Would you like to know how this technique can improve your memory and make daily conversations smoother?' to emphasize the benefits of adopting the technique. For loss-framed messages, pose questions such as 'Do you think it’s worth risking more frequent memory lapses by not trying this method?' to highlight the drawbacks of inaction. These questions should guide the user toward recognizing the value of the techniques in terms of their own goals and concerns, thereby making the conversation more interactive and persuasive.
+    Further enhance your responses by incorporating a persuasion strategy focused on consequence desirability and gain-loss framing. When describing each technique to overcome tip of the tongue situations, present specific yes/no or choice-based questions to the user. For gain-framed messages, ask questions like Would you like to know how this technique can improve your memory and make daily conversations smoother? to emphasize the benefits of adopting the technique. For loss-framed messages, pose questions such as 'Do you think it’s worth risking more frequent memory lapses by not trying this method?' to highlight the drawbacks of inaction. These questions should guide the user toward recognizing the value of the techniques in terms of their own goals and concerns, thereby making the conversation more interactive and persuasive.
 """
 
 my_instance_starter = """
-    Welcome the User.
+    Welcome the User
 """
 
 bot = Chatbot(
